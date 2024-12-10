@@ -7,8 +7,12 @@ class Program
     public static string str1, str2;
     public static void Main(string[] args)
     {
+        Practika1 practika1 = new();
+        practika1.Pr();
         GuessGame guessGame = new();
         guessGame.Run();
+
+
         Console.WriteLine("Введите 2 числа");
         str1 = Console.ReadLine();
         str2 = Console.ReadLine();

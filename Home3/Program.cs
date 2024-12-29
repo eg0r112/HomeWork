@@ -7,10 +7,14 @@ class Program
     public static string str1, str2;
     public static void Main(string[] args)
     {
-        Practika1 practika1 = new();
-        practika1.Pr();
-        GuessGame guessGame = new();
-        guessGame.Run();
+        // Вызовы методом
+        //практика 1
+         //Practika1 practika1 = new();
+         //practika1.Pr();
+
+        //Угадай число(дз 3)
+        // GuessGame guessGame = new();
+        // guessGame.Run();
 
 
         Console.WriteLine("Введите 2 числа");
